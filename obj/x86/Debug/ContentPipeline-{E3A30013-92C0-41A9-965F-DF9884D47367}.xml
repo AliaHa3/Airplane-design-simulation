@@ -1,0 +1,1966 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent xmlns:Pipeline="Microsoft.Xna.Framework.Content.Pipeline" xmlns:Framework="Microsoft.Xna.Framework" xmlns:Processors="Microsoft.Xna.Framework.Content.Pipeline.Processors">
+  <Asset Type="Pipeline:BuildItemCollection">
+    <Item>
+      <Source>Ship.fbx</Source>
+      <Name>Ship</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\majd\Desktop\Physics Project- the very good one\Physics Project\Physics_Project\bin\x86\Debug\Content\Ship.xnb</Output>
+      <Time>2015-02-11T13:47:50+02:00</Time>
+      <Dependency>
+        <Key>C:\Users\majd\Desktop\Physics Project- the very good one\Physics Project\Physics_Project\obj\x86\Debug\Ship_0.xml</Key>
+        <Value>2015-02-27T11:59:48.0019099+02:00</Value>
+      </Dependency>
+      <Request>C:\Users\majd\Desktop\Physics Project- the very good one\Physics Project\Physics_Project\bin\x86\Debug\Content\ShipTexture_0.xnb</Request>
+    </Item>
+    <Item>
+      <Source>Fan-Engine.FBX</Source>
+      <Name>Fan-Engine</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\majd\Desktop\Physics Project- the very good one\Physics Project\Physics_Project\bin\x86\Debug\Content\Fan-Engine.xnb</Output>
+      <Time>2015-02-04T14:03:04+02:00</Time>
+      <Dependency>
+        <Key>C:\Users\majd\Desktop\Physics Project- the very good one\Physics Project\Physics_Project\obj\x86\Debug\Fan-Engine_0.xml</Key>
+        <Value>2015-02-27T11:59:49.18947+02:00</Value>
+      </Dependency>
+      <Request>C:\Users\majd\Desktop\Physics Project- the very good one\Physics Project\Physics_Project\bin\x86\Debug\Content\parts_0.xnb</Request>
+      <Request>C:\Users\majd\Desktop\Physics Project- the very good one\Physics Project\Physics_Project\bin\x86\Debug\Content\engines_0.xnb</Request>
+    </Item>
+    <Item>
+      <Source>Jet-Engine.FBX</Source>
+      <Name>Jet-Engine</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\majd\Desktop\Physics Project- the very good one\Physics Project\Physics_Project\bin\x86\Debug\Content\Jet-Engine.xnb</Output>
+      <Time>2015-02-24T12:22:14.9739081+02:00</Time>
+      <Dependency>
+        <Key>C:\Users\majd\Desktop\Physics Project- the very good one\Physics Project\Physics_Project\obj\x86\Debug\Jet-Engine_0.xml</Key>
+        <Value>2015-02-27T11:59:50.5491392+02:00</Value>
+      </Dependency>
+    </Item>
+    <Item>
+      <Source>Rocket-Engine.FBX</Source>
+      <Name>Rocket-Engine</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\majd\Desktop\Physics Project- the very good one\Physics Project\Physics_Project\bin\x86\Debug\Content\Rocket-Engine.xnb</Output>
+      <Time>2015-02-24T12:22:14.1539069+02:00</Time>
+      <Dependency>
+        <Key>C:\Users\majd\Desktop\Physics Project- the very good one\Physics Project\Physics_Project\obj\x86\Debug\Rocket-Engine_0.xml</Key>
+        <Value>2015-02-27T11:59:50.6272678+02:00</Value>
+      </Dependency>
+    </Item>
+    <Item>
+      <Source>Cessna-Body.FBX</Source>
+      <Name>Cessna-Body</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\majd\Desktop\Physics Project- the very good one\Physics Project\Physics_Project\bin\x86\Debug\Content\Cessna-Body.xnb</Output>
+      <Time>2015-02-23T12:36:17.5717286+02:00</Time>
+      <Dependency>
+        <Key>C:\Users\majd\Desktop\Physics Project- the very good one\Physics Project\Physics_Project\obj\x86\Debug\Cessna-Body_0.xml</Key>
+        <Value>2015-02-27T11:59:50.9866599+02:00</Value>
+      </Dependency>
+    </Item>
+    <Item>
+      <Source>Spitfire-Body.FBX</Source>
+      <Name>Spitfire-Body</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\majd\Desktop\Physics Project- the very good one\Physics Project\Physics_Project\bin\x86\Debug\Content\Spitfire-Body.xnb</Output>
+      <Time>2015-02-23T12:40:26.5802255+02:00</Time>
+      <Dependency>
+        <Key>C:\Users\majd\Desktop\Physics Project- the very good one\Physics Project\Physics_Project\obj\x86\Debug\Spitfire-Body_0.xml</Key>
+        <Value>2015-02-27T11:59:51.2210476+02:00</Value>
+      </Dependency>
+    </Item>
+    <Item>
+      <Source>X15-Body.FBX</Source>
+      <Name>X15-Body</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\majd\Desktop\Physics Project- the very good one\Physics Project\Physics_Project\bin\x86\Debug\Content\X15-Body.xnb</Output>
+      <Time>2015-02-24T11:33:40.9766474+02:00</Time>
+      <Dependency>
+        <Key>C:\Users\majd\Desktop\Physics Project- the very good one\Physics Project\Physics_Project\obj\x86\Debug\X15-Body_0.xml</Key>
+        <Value>2015-02-27T11:59:51.908582+02:00</Value>
+      </Dependency>
+    </Item>
+    <Item>
+      <Source>X-99-Body.FBX</Source>
+      <Name>X-99-Body</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\majd\Desktop\Physics Project- the very good one\Physics Project\Physics_Project\bin\x86\Debug\Content\X-99-Body.xnb</Output>
+      <Time>2015-02-11T09:28:40+02:00</Time>
+      <Dependency>
+        <Key>C:\Users\majd\Desktop\Physics Project- the very good one\Physics Project\Physics_Project\obj\x86\Debug\X-99-Body_0.xml</Key>
+        <Value>2015-02-27T11:59:52.5813869+02:00</Value>
+      </Dependency>
+    </Item>
+    <Item>
+      <Source>A10-Left-Wing all.FBX</Source>
+      <Name>A10-Left-Wing all</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\majd\Desktop\Physics Project- the very good one\Physics Project\Physics_Project\bin\x86\Debug\Content\A10-Left-Wing all.xnb</Output>
+      <Time>2015-02-11T19:54:14.8849875+02:00</Time>
+      <Dependency>
+        <Key>C:\Users\majd\Desktop\Physics Project- the very good one\Physics Project\Physics_Project\obj\x86\Debug\A10-Left-Wing all_0.xml</Key>
+        <Value>2015-02-27T11:59:52.9095274+02:00</Value>
+      </Dependency>
+      <Request>C:\Users\majd\Desktop\Physics Project- the very good one\Physics Project\Physics_Project\bin\x86\Debug\Content\Right Wing_0.xnb</Request>
+    </Item>
+    <Item>
+      <Source>A10-Right-Wing all.FBX</Source>
+      <Name>A10-Right-Wing all</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\majd\Desktop\Physics Project- the very good one\Physics Project\Physics_Project\bin\x86\Debug\Content\A10-Right-Wing all.xnb</Output>
+      <Time>2015-02-11T19:54:14.9941877+02:00</Time>
+      <Dependency>
+        <Key>C:\Users\majd\Desktop\Physics Project- the very good one\Physics Project\Physics_Project\obj\x86\Debug\A10-Right-Wing all_0.xml</Key>
+        <Value>2015-02-27T11:59:53.8783254+02:00</Value>
+      </Dependency>
+      <Request>C:\Users\majd\Desktop\Physics Project- the very good one\Physics Project\Physics_Project\bin\x86\Debug\Content\Right Wing_0.xnb</Request>
+    </Item>
+    <Item>
+      <Source>Bleriot-Left-Wing.FBX</Source>
+      <Name>Bleriot-Left-Wing</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\majd\Desktop\Physics Project- the very good one\Physics Project\Physics_Project\bin\x86\Debug\Content\Bleriot-Left-Wing.xnb</Output>
+      <Time>2015-02-23T12:05:47.6080243+02:00</Time>
+      <Dependency>
+        <Key>C:\Users\majd\Desktop\Physics Project- the very good one\Physics Project\Physics_Project\obj\x86\Debug\Bleriot-Left-Wing_0.xml</Key>
+        <Value>2015-02-27T11:59:54.03494+02:00</Value>
+      </Dependency>
+      <Request>C:\Users\majd\Desktop\Physics Project- the very good one\Physics Project\Physics_Project\bin\x86\Debug\Content\FabricPlain0052_1_Lbis_0.xnb</Request>
+    </Item>
+    <Item>
+      <Source>Bleriot-Right-Wing.FBX</Source>
+      <Name>Bleriot-Right-Wing</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\majd\Desktop\Physics Project- the very good one\Physics Project\Physics_Project\bin\x86\Debug\Content\Bleriot-Right-Wing.xnb</Output>
+      <Time>2015-02-23T12:05:48.7480259+02:00</Time>
+      <Dependency>
+        <Key>C:\Users\majd\Desktop\Physics Project- the very good one\Physics Project\Physics_Project\obj\x86\Debug\Bleriot-Right-Wing_0.xml</Key>
+        <Value>2015-02-27T12:03:33.1005124+02:00</Value>
+      </Dependency>
+      <Request>C:\Users\majd\Desktop\Physics Project- the very good one\Physics Project\Physics_Project\bin\x86\Debug\Content\FabricPlain0052_1_Lbis_0.xnb</Request>
+    </Item>
+    <Item>
+      <Source>Cessna-Left-Wing.FBX</Source>
+      <Name>Cessna-Left-Wing</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\majd\Desktop\Physics Project- the very good one\Physics Project\Physics_Project\bin\x86\Debug\Content\Cessna-Left-Wing.xnb</Output>
+      <Time>2015-02-23T12:36:18.2717296+02:00</Time>
+      <Dependency>
+        <Key>C:\Users\majd\Desktop\Physics Project- the very good one\Physics Project\Physics_Project\obj\x86\Debug\Cessna-Left-Wing_0.xml</Key>
+        <Value>2015-02-27T12:03:33.1786411+02:00</Value>
+      </Dependency>
+    </Item>
+    <Item>
+      <Source>Cessna-Right-Wing.FBX</Source>
+      <Name>Cessna-Right-Wing</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\majd\Desktop\Physics Project- the very good one\Physics Project\Physics_Project\bin\x86\Debug\Content\Cessna-Right-Wing.xnb</Output>
+      <Time>2015-02-23T12:36:19.0417307+02:00</Time>
+      <Dependency>
+        <Key>C:\Users\majd\Desktop\Physics Project- the very good one\Physics Project\Physics_Project\obj\x86\Debug\Cessna-Right-Wing_0.xml</Key>
+        <Value>2015-02-27T12:03:33.2567703+02:00</Value>
+      </Dependency>
+    </Item>
+    <Item>
+      <Source>Spitfire-Left-Wing.FBX</Source>
+      <Name>Spitfire-Left-Wing</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\majd\Desktop\Physics Project- the very good one\Physics Project\Physics_Project\bin\x86\Debug\Content\Spitfire-Left-Wing.xnb</Output>
+      <Time>2015-02-23T12:40:27.2202264+02:00</Time>
+      <Dependency>
+        <Key>C:\Users\majd\Desktop\Physics Project- the very good one\Physics Project\Physics_Project\obj\x86\Debug\Spitfire-Left-Wing_0.xml</Key>
+        <Value>2015-02-27T12:03:33.3348977+02:00</Value>
+      </Dependency>
+    </Item>
+    <Item>
+      <Source>Spitfire-Right-Wing.FBX</Source>
+      <Name>Spitfire-Right-Wing</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\majd\Desktop\Physics Project- the very good one\Physics Project\Physics_Project\bin\x86\Debug\Content\Spitfire-Right-Wing.xnb</Output>
+      <Time>2015-02-23T12:40:27.8802273+02:00</Time>
+      <Dependency>
+        <Key>C:\Users\majd\Desktop\Physics Project- the very good one\Physics Project\Physics_Project\obj\x86\Debug\Spitfire-Right-Wing_0.xml</Key>
+        <Value>2015-02-27T12:03:33.4130275+02:00</Value>
+      </Dependency>
+    </Item>
+    <Item>
+      <Source>X15-Left-Wing.FBX</Source>
+      <Name>X15-Left-Wing</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\majd\Desktop\Physics Project- the very good one\Physics Project\Physics_Project\bin\x86\Debug\Content\X15-Left-Wing.xnb</Output>
+      <Time>2015-02-24T11:33:41.6466483+02:00</Time>
+      <Dependency>
+        <Key>C:\Users\majd\Desktop\Physics Project- the very good one\Physics Project\Physics_Project\obj\x86\Debug\X15-Left-Wing_0.xml</Key>
+        <Value>2015-02-27T12:03:33.4755294+02:00</Value>
+      </Dependency>
+    </Item>
+    <Item>
+      <Source>X15-Right-Wing.FBX</Source>
+      <Name>X15-Right-Wing</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\majd\Desktop\Physics Project- the very good one\Physics Project\Physics_Project\bin\x86\Debug\Content\X15-Right-Wing.xnb</Output>
+      <Time>2015-02-24T11:33:38.7566442+02:00</Time>
+      <Dependency>
+        <Key>C:\Users\majd\Desktop\Physics Project- the very good one\Physics Project\Physics_Project\obj\x86\Debug\X15-Right-Wing_0.xml</Key>
+        <Value>2015-02-27T12:03:33.5224059+02:00</Value>
+      </Dependency>
+    </Item>
+    <Item>
+      <Source>A10-Left-wing inner flip.FBX</Source>
+      <Name>A10-Left-wing inner flip</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\majd\Desktop\Physics Project- the very good one\Physics Project\Physics_Project\bin\x86\Debug\Content\A10-Left-wing inner flip.xnb</Output>
+      <Time>2015-02-11T19:54:14.9317876+02:00</Time>
+      <Dependency>
+        <Key>C:\Users\majd\Desktop\Physics Project- the very good one\Physics Project\Physics_Project\obj\x86\Debug\A10-Left-wing inner flip_0.xml</Key>
+        <Value>2015-02-27T12:03:33.5849102+02:00</Value>
+      </Dependency>
+      <Request>C:\Users\majd\Desktop\Physics Project- the very good one\Physics Project\Physics_Project\bin\x86\Debug\Content\Right Wing_0.xnb</Request>
+    </Item>
+    <Item>
+      <Source>A10-Left-wing outer flip.FBX</Source>
+      <Name>A10-Left-wing outer flip</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\majd\Desktop\Physics Project- the very good one\Physics Project\Physics_Project\bin\x86\Debug\Content\A10-Left-wing outer flip.xnb</Output>
+      <Time>2015-02-11T19:54:14.9473876+02:00</Time>
+      <Dependency>
+        <Key>C:\Users\majd\Desktop\Physics Project- the very good one\Physics Project\Physics_Project\obj\x86\Debug\A10-Left-wing outer flip_0.xml</Key>
+        <Value>2015-02-27T12:03:33.6942898+02:00</Value>
+      </Dependency>
+      <Request>C:\Users\majd\Desktop\Physics Project- the very good one\Physics Project\Physics_Project\bin\x86\Debug\Content\Right Wing_0.xnb</Request>
+    </Item>
+    <Item>
+      <Source>A10-Right-wing inner flip.FBX</Source>
+      <Name>A10-Right-wing inner flip</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\majd\Desktop\Physics Project- the very good one\Physics Project\Physics_Project\bin\x86\Debug\Content\A10-Right-wing inner flip.xnb</Output>
+      <Time>2015-02-11T19:54:15.0097877+02:00</Time>
+      <Dependency>
+        <Key>C:\Users\majd\Desktop\Physics Project- the very good one\Physics Project\Physics_Project\obj\x86\Debug\A10-Right-wing inner flip_0.xml</Key>
+        <Value>2015-02-27T12:03:33.7567929+02:00</Value>
+      </Dependency>
+      <Request>C:\Users\majd\Desktop\Physics Project- the very good one\Physics Project\Physics_Project\bin\x86\Debug\Content\Right Wing_0.xnb</Request>
+    </Item>
+    <Item>
+      <Source>A10-Right-wing outer flip.FBX</Source>
+      <Name>A10-Right-wing outer flip</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\majd\Desktop\Physics Project- the very good one\Physics Project\Physics_Project\bin\x86\Debug\Content\A10-Right-wing outer flip.xnb</Output>
+      <Time>2015-02-11T19:54:15.0409878+02:00</Time>
+      <Dependency>
+        <Key>C:\Users\majd\Desktop\Physics Project- the very good one\Physics Project\Physics_Project\obj\x86\Debug\A10-Right-wing outer flip_0.xml</Key>
+        <Value>2015-02-27T12:03:33.8661731+02:00</Value>
+      </Dependency>
+      <Request>C:\Users\majd\Desktop\Physics Project- the very good one\Physics Project\Physics_Project\bin\x86\Debug\Content\Right Wing_0.xnb</Request>
+    </Item>
+    <Item>
+      <Source>A10-wheel.FBX</Source>
+      <Name>A10-wheel</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\majd\Desktop\Physics Project- the very good one\Physics Project\Physics_Project\bin\x86\Debug\Content\A10-wheel.xnb</Output>
+      <Time>2015-02-11T19:54:15.150188+02:00</Time>
+      <Dependency>
+        <Key>C:\Users\majd\Desktop\Physics Project- the very good one\Physics Project\Physics_Project\obj\x86\Debug\A10-wheel_0.xml</Key>
+        <Value>2015-02-27T12:03:34.006806+02:00</Value>
+      </Dependency>
+      <Request>C:\Users\majd\Desktop\Physics Project- the very good one\Physics Project\Physics_Project\bin\x86\Debug\Content\parts_0.xnb</Request>
+    </Item>
+    <Item>
+      <Source>A10.FBX</Source>
+      <Name>A10</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\majd\Desktop\Physics Project- the very good one\Physics Project\Physics_Project\bin\x86\Debug\Content\A10.xnb</Output>
+      <Time>2015-02-11T19:54:14.2453864+02:00</Time>
+      <Dependency>
+        <Key>C:\Users\majd\Desktop\Physics Project- the very good one\Physics Project\Physics_Project\obj\x86\Debug\A10_0.xml</Key>
+        <Value>2015-02-27T12:03:34.9599779+02:00</Value>
+      </Dependency>
+      <Request>C:\Users\majd\Desktop\Physics Project- the very good one\Physics Project\Physics_Project\bin\x86\Debug\Content\parts_0.xnb</Request>
+      <Request>C:\Users\majd\Desktop\Physics Project- the very good one\Physics Project\Physics_Project\bin\x86\Debug\Content\engines_0.xnb</Request>
+      <Request>C:\Users\majd\Desktop\Physics Project- the very good one\Physics Project\Physics_Project\bin\x86\Debug\Content\cockpit 3_0.xnb</Request>
+      <Request>C:\Users\majd\Desktop\Physics Project- the very good one\Physics Project\Physics_Project\bin\x86\Debug\Content\cockpit 2_0.xnb</Request>
+      <Request>C:\Users\majd\Desktop\Physics Project- the very good one\Physics Project\Physics_Project\bin\x86\Debug\Content\cockpit 4_0.xnb</Request>
+      <Request>C:\Users\majd\Desktop\Physics Project- the very good one\Physics Project\Physics_Project\bin\x86\Debug\Content\seat_0.xnb</Request>
+      <Request>C:\Users\majd\Desktop\Physics Project- the very good one\Physics Project\Physics_Project\bin\x86\Debug\Content\body rear_0.xnb</Request>
+      <Request>C:\Users\majd\Desktop\Physics Project- the very good one\Physics Project\Physics_Project\bin\x86\Debug\Content\body front_0.xnb</Request>
+      <Request>C:\Users\majd\Desktop\Physics Project- the very good one\Physics Project\Physics_Project\bin\x86\Debug\Content\cockpit_0.xnb</Request>
+      <Request>C:\Users\majd\Desktop\Physics Project- the very good one\Physics Project\Physics_Project\bin\x86\Debug\Content\Decal_0.xnb</Request>
+      <Request>C:\Users\majd\Desktop\Physics Project- the very good one\Physics Project\Physics_Project\bin\x86\Debug\Content\Right Wing_0.xnb</Request>
+      <Request>C:\Users\majd\Desktop\Physics Project- the very good one\Physics Project\Physics_Project\bin\x86\Debug\Content\Left wing_0.xnb</Request>
+      <Request>C:\Users\majd\Desktop\Physics Project- the very good one\Physics Project\Physics_Project\bin\x86\Debug\Content\Goggles_0.xnb</Request>
+      <Request>C:\Users\majd\Desktop\Physics Project- the very good one\Physics Project\Physics_Project\bin\x86\Debug\Content\Glass_0.xnb</Request>
+    </Item>
+    <Item>
+      <Source>A10-Body.FBX</Source>
+      <Name>A10-Body</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\majd\Desktop\Physics Project- the very good one\Physics Project\Physics_Project\bin\x86\Debug\Content\A10-Body.xnb</Output>
+      <Time>2015-02-23T08:51:57.7598701+02:00</Time>
+      <Dependency>
+        <Key>C:\Users\majd\Desktop\Physics Project- the very good one\Physics Project\Physics_Project\obj\x86\Debug\A10-Body_0.xml</Key>
+        <Value>2015-02-27T12:03:43.1846499+02:00</Value>
+      </Dependency>
+      <Request>C:\Users\majd\Desktop\Physics Project- the very good one\Physics Project\Physics_Project\bin\x86\Debug\Content\body rear_1.xnb</Request>
+      <Request>C:\Users\majd\Desktop\Physics Project- the very good one\Physics Project\Physics_Project\bin\x86\Debug\Content\body front_1.xnb</Request>
+      <Request>C:\Users\majd\Desktop\Physics Project- the very good one\Physics Project\Physics_Project\bin\x86\Debug\Content\Glass_1.xnb</Request>
+      <Request>C:\Users\majd\Desktop\Physics Project- the very good one\Physics Project\Physics_Project\bin\x86\Debug\Content\Decal_1.xnb</Request>
+      <Request>C:\Users\majd\Desktop\Physics Project- the very good one\Physics Project\Physics_Project\bin\x86\Debug\Content\cockpit 3_1.xnb</Request>
+    </Item>
+    <Item>
+      <Source>A10-Left-Wing.FBX</Source>
+      <Name>A10-Left-Wing</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\majd\Desktop\Physics Project- the very good one\Physics Project\Physics_Project\bin\x86\Debug\Content\A10-Left-Wing.xnb</Output>
+      <Time>2015-02-23T08:51:57.9314704+02:00</Time>
+      <Dependency>
+        <Key>C:\Users\majd\Desktop\Physics Project- the very good one\Physics Project\Physics_Project\obj\x86\Debug\A10-Left-Wing_0.xml</Key>
+        <Value>2015-02-27T12:03:46.0599437+02:00</Value>
+      </Dependency>
+      <Request>C:\Users\majd\Desktop\Physics Project- the very good one\Physics Project\Physics_Project\bin\x86\Debug\Content\Left wing_1.xnb</Request>
+    </Item>
+    <Item>
+      <Source>A10-Right-Wing.FBX</Source>
+      <Name>A10-Right-Wing</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\majd\Desktop\Physics Project- the very good one\Physics Project\Physics_Project\bin\x86\Debug\Content\A10-Right-Wing.xnb</Output>
+      <Time>2015-02-23T08:51:58.0406706+02:00</Time>
+      <Dependency>
+        <Key>C:\Users\majd\Desktop\Physics Project- the very good one\Physics Project\Physics_Project\obj\x86\Debug\A10-Right-Wing_0.xml</Key>
+        <Value>2015-02-27T12:03:47.0599938+02:00</Value>
+      </Dependency>
+      <Request>C:\Users\majd\Desktop\Physics Project- the very good one\Physics Project\Physics_Project\bin\x86\Debug\Content\Right Wing_1.xnb</Request>
+    </Item>
+    <Item>
+      <Source>A10-tail.FBX</Source>
+      <Name>A10-tail</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\majd\Desktop\Physics Project- the very good one\Physics Project\Physics_Project\bin\x86\Debug\Content\A10-tail.xnb</Output>
+      <Time>2015-02-23T08:51:58.1342707+02:00</Time>
+      <Dependency>
+        <Key>C:\Users\majd\Desktop\Physics Project- the very good one\Physics Project\Physics_Project\obj\x86\Debug\A10-tail_0.xml</Key>
+        <Value>2015-02-27T12:03:48.2172314+02:00</Value>
+      </Dependency>
+      <Request>C:\Users\majd\Desktop\Physics Project- the very good one\Physics Project\Physics_Project\bin\x86\Debug\Content\engines_1.xnb</Request>
+      <Request>C:\Users\majd\Desktop\Physics Project- the very good one\Physics Project\Physics_Project\bin\x86\Debug\Content\parts_1.xnb</Request>
+    </Item>
+    <Item>
+      <Source>SkyboxImages\cube.fbx</Source>
+      <Name>SkyboxImages\cube</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\majd\Desktop\Physics Project- the very good one\Physics Project\Physics_Project\bin\x86\Debug\Content\SkyboxImages\cube.xnb</Output>
+      <Time>2015-02-13T15:25:09.6860515+02:00</Time>
+      <Dependency>
+        <Key>C:\Users\majd\Desktop\Physics Project- the very good one\Physics Project\Physics_Project\obj\x86\Debug\SkyboxImages\cube_0.xml</Key>
+        <Value>2015-02-27T12:03:49.7911114+02:00</Value>
+      </Dependency>
+    </Item>
+    <Item>
+      <Source>A10-engine.FBX</Source>
+      <Name>A10-engine</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\majd\Desktop\Physics Project- the very good one\Physics Project\Physics_Project\bin\x86\Debug\Content\A10-engine.xnb</Output>
+      <Time>2015-02-24T11:38:58.4719218+02:00</Time>
+      <Dependency>
+        <Key>C:\Users\majd\Desktop\Physics Project- the very good one\Physics Project\Physics_Project\obj\x86\Debug\A10-engine_0.xml</Key>
+        <Value>2015-02-27T12:03:49.9473662+02:00</Value>
+      </Dependency>
+      <Request>C:\Users\majd\Desktop\Physics Project- the very good one\Physics Project\Physics_Project\bin\x86\Debug\Content\parts_1.xnb</Request>
+      <Request>C:\Users\majd\Desktop\Physics Project- the very good one\Physics Project\Physics_Project\bin\x86\Debug\Content\engines_1.xnb</Request>
+    </Item>
+    <Item>
+      <Source>Bleriot-Tail.FBX</Source>
+      <Name>Bleriot-Tail</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\majd\Desktop\Physics Project- the very good one\Physics Project\Physics_Project\bin\x86\Debug\Content\Bleriot-Tail.xnb</Output>
+      <Time>2015-02-23T12:05:49.4780269+02:00</Time>
+      <Dependency>
+        <Key>C:\Users\majd\Desktop\Physics Project- the very good one\Physics Project\Physics_Project\obj\x86\Debug\Bleriot-Tail_0.xml</Key>
+        <Value>2015-02-27T12:03:50.056747+02:00</Value>
+      </Dependency>
+      <Request>C:\Users\majd\Desktop\Physics Project- the very good one\Physics Project\Physics_Project\bin\x86\Debug\Content\FabricPlain0052_1_Lbis_0.xnb</Request>
+    </Item>
+    <Item>
+      <Source>Cessna-Tail.FBX</Source>
+      <Name>Cessna-Tail</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\majd\Desktop\Physics Project- the very good one\Physics Project\Physics_Project\bin\x86\Debug\Content\Cessna-Tail.xnb</Output>
+      <Time>2015-02-23T12:36:19.7817317+02:00</Time>
+      <Dependency>
+        <Key>C:\Users\majd\Desktop\Physics Project- the very good one\Physics Project\Physics_Project\obj\x86\Debug\Cessna-Tail_0.xml</Key>
+        <Value>2015-02-27T12:03:50.2755079+02:00</Value>
+      </Dependency>
+    </Item>
+    <Item>
+      <Source>Spitfire-Tail.FBX</Source>
+      <Name>Spitfire-Tail</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\majd\Desktop\Physics Project- the very good one\Physics Project\Physics_Project\bin\x86\Debug\Content\Spitfire-Tail.xnb</Output>
+      <Time>2015-02-23T12:40:29.001229+02:00</Time>
+      <Dependency>
+        <Key>C:\Users\majd\Desktop\Physics Project- the very good one\Physics Project\Physics_Project\obj\x86\Debug\Spitfire-Tail_0.xml</Key>
+        <Value>2015-02-27T12:03:50.3848887+02:00</Value>
+      </Dependency>
+    </Item>
+    <Item>
+      <Source>X15-Tail.FBX</Source>
+      <Name>X15-Tail</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\majd\Desktop\Physics Project- the very good one\Physics Project\Physics_Project\bin\x86\Debug\Content\X15-Tail.xnb</Output>
+      <Time>2015-02-24T11:33:39.6366455+02:00</Time>
+      <Dependency>
+        <Key>C:\Users\majd\Desktop\Physics Project- the very good one\Physics Project\Physics_Project\obj\x86\Debug\X15-Tail_0.xml</Key>
+        <Value>2015-02-27T12:03:50.4630167+02:00</Value>
+      </Dependency>
+    </Item>
+    <Item>
+      <Source>ShipTexture.png</Source>
+      <Name>ShipTexture</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\majd\Desktop\Physics Project- the very good one\Physics Project\Physics_Project\bin\x86\Debug\Content\ShipTexture.xnb</Output>
+      <Time>2015-02-01T23:14:50+02:00</Time>
+    </Item>
+    <Item>
+      <Source>body front.tga</Source>
+      <Name>body front</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\majd\Desktop\Physics Project- the very good one\Physics Project\Physics_Project\bin\x86\Debug\Content\body front.xnb</Output>
+      <Time>2015-02-11T19:54:15.2125881+02:00</Time>
+    </Item>
+    <Item>
+      <Source>body rear.tga</Source>
+      <Name>body rear</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\majd\Desktop\Physics Project- the very good one\Physics Project\Physics_Project\bin\x86\Debug\Content\body rear.xnb</Output>
+      <Time>2015-02-11T19:54:15.3373883+02:00</Time>
+    </Item>
+    <Item>
+      <Source>cockpit 2.tga</Source>
+      <Name>cockpit 2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\majd\Desktop\Physics Project- the very good one\Physics Project\Physics_Project\bin\x86\Debug\Content\cockpit 2.xnb</Output>
+      <Time>2015-02-11T19:54:15.4621885+02:00</Time>
+    </Item>
+    <Item>
+      <Source>cockpit 3.tga</Source>
+      <Name>cockpit 3</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\majd\Desktop\Physics Project- the very good one\Physics Project\Physics_Project\bin\x86\Debug\Content\cockpit 3.xnb</Output>
+      <Time>2015-02-11T19:54:15.6181888+02:00</Time>
+    </Item>
+    <Item>
+      <Source>cockpit 4.tga</Source>
+      <Name>cockpit 4</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\majd\Desktop\Physics Project- the very good one\Physics Project\Physics_Project\bin\x86\Debug\Content\cockpit 4.xnb</Output>
+      <Time>2015-02-11T19:54:15.6961889+02:00</Time>
+    </Item>
+    <Item>
+      <Source>cockpit.tga</Source>
+      <Name>cockpit</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\majd\Desktop\Physics Project- the very good one\Physics Project\Physics_Project\bin\x86\Debug\Content\cockpit.xnb</Output>
+      <Time>2015-02-11T19:54:15.758589+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Decal.tga</Source>
+      <Name>Decal</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\majd\Desktop\Physics Project- the very good one\Physics Project\Physics_Project\bin\x86\Debug\Content\Decal.xnb</Output>
+      <Time>2015-02-11T19:54:15.8677892+02:00</Time>
+    </Item>
+    <Item>
+      <Source>engines.tga</Source>
+      <Name>engines</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\majd\Desktop\Physics Project- the very good one\Physics Project\Physics_Project\bin\x86\Debug\Content\engines.xnb</Output>
+      <Time>2015-02-11T19:54:15.9457894+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Glass.tga</Source>
+      <Name>Glass</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\majd\Desktop\Physics Project- the very good one\Physics Project\Physics_Project\bin\x86\Debug\Content\Glass.xnb</Output>
+      <Time>2015-02-11T19:54:14.0737861+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Goggles.tga</Source>
+      <Name>Goggles</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\majd\Desktop\Physics Project- the very good one\Physics Project\Physics_Project\bin\x86\Debug\Content\Goggles.xnb</Output>
+      <Time>2015-02-11T19:54:14.0893861+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Left wing.tga</Source>
+      <Name>Left wing</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\majd\Desktop\Physics Project- the very good one\Physics Project\Physics_Project\bin\x86\Debug\Content\Left wing.xnb</Output>
+      <Time>2015-02-11T19:54:14.1049861+02:00</Time>
+    </Item>
+    <Item>
+      <Source>missiles.tga</Source>
+      <Name>missiles</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\majd\Desktop\Physics Project- the very good one\Physics Project\Physics_Project\bin\x86\Debug\Content\missiles.xnb</Output>
+      <Time>2015-02-11T19:54:14.1361862+02:00</Time>
+    </Item>
+    <Item>
+      <Source>parts.tga</Source>
+      <Name>parts</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\majd\Desktop\Physics Project- the very good one\Physics Project\Physics_Project\bin\x86\Debug\Content\parts.xnb</Output>
+      <Time>2015-02-11T19:54:14.1517862+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Right Wing.tga</Source>
+      <Name>Right Wing</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\majd\Desktop\Physics Project- the very good one\Physics Project\Physics_Project\bin\x86\Debug\Content\Right Wing.xnb</Output>
+      <Time>2015-02-11T19:54:14.1517862+02:00</Time>
+    </Item>
+    <Item>
+      <Source>scope.tga</Source>
+      <Name>scope</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\majd\Desktop\Physics Project- the very good one\Physics Project\Physics_Project\bin\x86\Debug\Content\scope.xnb</Output>
+      <Time>2015-02-11T19:54:14.1673862+02:00</Time>
+    </Item>
+    <Item>
+      <Source>seat.tga</Source>
+      <Name>seat</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\majd\Desktop\Physics Project- the very good one\Physics Project\Physics_Project\bin\x86\Debug\Content\seat.xnb</Output>
+      <Time>2015-02-11T19:54:14.1829863+02:00</Time>
+    </Item>
+    <Item>
+      <Source>cadran compas.jpg</Source>
+      <Name>cadran compas</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\majd\Desktop\Physics Project- the very good one\Physics Project\Physics_Project\bin\x86\Debug\Content\cadran compas.xnb</Output>
+      <Time>2015-02-11T12:35:38+02:00</Time>
+    </Item>
+    <Item>
+      <Source>cadre fuselage.jpg</Source>
+      <Name>cadre fuselage</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\majd\Desktop\Physics Project- the very good one\Physics Project\Physics_Project\bin\x86\Debug\Content\cadre fuselage.xnb</Output>
+      <Time>2015-02-11T12:35:38+02:00</Time>
+    </Item>
+    <Item>
+      <Source>carte.jpg</Source>
+      <Name>carte</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\majd\Desktop\Physics Project- the very good one\Physics Project\Physics_Project\bin\x86\Debug\Content\carte.xnb</Output>
+      <Time>2015-02-11T12:35:40+02:00</Time>
+    </Item>
+    <Item>
+      <Source>DropTank_51Fg39Fs.jpg</Source>
+      <Name>DropTank_51Fg39Fs</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\majd\Desktop\Physics Project- the very good one\Physics Project\Physics_Project\bin\x86\Debug\Content\DropTank_51Fg39Fs.xnb</Output>
+      <Time>2015-02-10T02:20:22+02:00</Time>
+    </Item>
+    <Item>
+      <Source>DropTank_Tempt.jpg</Source>
+      <Name>DropTank_Tempt</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\majd\Desktop\Physics Project- the very good one\Physics Project\Physics_Project\bin\x86\Debug\Content\DropTank_Tempt.xnb</Output>
+      <Time>2015-02-10T02:20:22+02:00</Time>
+    </Item>
+    <Item>
+      <Source>sphere6_Canopy_The Huff.jpg</Source>
+      <Name>sphere6_Canopy_The Huff</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\majd\Desktop\Physics Project- the very good one\Physics Project\Physics_Project\bin\x86\Debug\Content\sphere6_Canopy_The Huff.xnb</Output>
+      <Time>2015-02-10T02:20:22+02:00</Time>
+    </Item>
+    <Item>
+      <Source>torus4_51Fg39FsFusil_The Huff.jpg</Source>
+      <Name>torus4_51Fg39FsFusil_The Huff</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\majd\Desktop\Physics Project- the very good one\Physics Project\Physics_Project\bin\x86\Debug\Content\torus4_51Fg39FsFusil_The Huff.xnb</Output>
+      <Time>2015-02-10T02:20:22+02:00</Time>
+    </Item>
+    <Item>
+      <Source>torus4_StripeWing.jpg</Source>
+      <Name>torus4_StripeWing</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\majd\Desktop\Physics Project- the very good one\Physics Project\Physics_Project\bin\x86\Debug\Content\torus4_StripeWing.xnb</Output>
+      <Time>2015-02-10T02:20:22+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Entoilage arrmatures.jpg</Source>
+      <Name>Entoilage arrmatures</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\majd\Desktop\Physics Project- the very good one\Physics Project\Physics_Project\bin\x86\Debug\Content\Entoilage arrmatures.xnb</Output>
+      <Time>2015-02-11T12:35:40+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Entoilage fixe.jpg</Source>
+      <Name>Entoilage fixe</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\majd\Desktop\Physics Project- the very good one\Physics Project\Physics_Project\bin\x86\Debug\Content\Entoilage fixe.xnb</Output>
+      <Time>2015-02-11T12:35:26+02:00</Time>
+    </Item>
+    <Item>
+      <Source>helice.jpg</Source>
+      <Name>helice</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\majd\Desktop\Physics Project- the very good one\Physics Project\Physics_Project\bin\x86\Debug\Content\helice.xnb</Output>
+      <Time>2015-02-11T12:35:42+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Panneaux fuselage.jpg</Source>
+      <Name>Panneaux fuselage</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\majd\Desktop\Physics Project- the very good one\Physics Project\Physics_Project\bin\x86\Debug\Content\Panneaux fuselage.xnb</Output>
+      <Time>2015-02-11T12:35:42+02:00</Time>
+    </Item>
+    <Item>
+      <Source>FabricPlain0052_1_Lbis.jpg</Source>
+      <Name>FabricPlain0052_1_Lbis</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\majd\Desktop\Physics Project- the very good one\Physics Project\Physics_Project\bin\x86\Debug\Content\FabricPlain0052_1_Lbis.xnb</Output>
+      <Time>2015-02-11T12:36:08+02:00</Time>
+    </Item>
+    <Item>
+      <Source>maps\cadran compas.jpg</Source>
+      <Name>maps\cadran compas</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\majd\Desktop\Physics Project- the very good one\Physics Project\Physics_Project\bin\x86\Debug\Content\maps\cadran compas.xnb</Output>
+      <Time>2015-02-11T12:37:06+02:00</Time>
+    </Item>
+    <Item>
+      <Source>maps\cadre fuselage.jpg</Source>
+      <Name>maps\cadre fuselage</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\majd\Desktop\Physics Project- the very good one\Physics Project\Physics_Project\bin\x86\Debug\Content\maps\cadre fuselage.xnb</Output>
+      <Time>2015-02-11T12:37:06+02:00</Time>
+    </Item>
+    <Item>
+      <Source>maps\carte.jpg</Source>
+      <Name>maps\carte</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\majd\Desktop\Physics Project- the very good one\Physics Project\Physics_Project\bin\x86\Debug\Content\maps\carte.xnb</Output>
+      <Time>2015-02-11T12:37:06+02:00</Time>
+    </Item>
+    <Item>
+      <Source>maps\Entoilage arrmatures.jpg</Source>
+      <Name>maps\Entoilage arrmatures</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\majd\Desktop\Physics Project- the very good one\Physics Project\Physics_Project\bin\x86\Debug\Content\maps\Entoilage arrmatures.xnb</Output>
+      <Time>2015-02-11T12:37:06+02:00</Time>
+    </Item>
+    <Item>
+      <Source>maps\FabricPlain0052_1_Lbis.jpg</Source>
+      <Name>maps\FabricPlain0052_1_Lbis</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\majd\Desktop\Physics Project- the very good one\Physics Project\Physics_Project\bin\x86\Debug\Content\maps\FabricPlain0052_1_Lbis.xnb</Output>
+      <Time>2015-02-11T12:37:06+02:00</Time>
+    </Item>
+    <Item>
+      <Source>maps\helice.jpg</Source>
+      <Name>maps\helice</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\majd\Desktop\Physics Project- the very good one\Physics Project\Physics_Project\bin\x86\Debug\Content\maps\helice.xnb</Output>
+      <Time>2015-02-11T12:37:06+02:00</Time>
+    </Item>
+    <Item>
+      <Source>maps\Panneaux fuselage.jpg</Source>
+      <Name>maps\Panneaux fuselage</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\majd\Desktop\Physics Project- the very good one\Physics Project\Physics_Project\bin\x86\Debug\Content\maps\Panneaux fuselage.xnb</Output>
+      <Time>2015-02-11T12:37:06+02:00</Time>
+    </Item>
+    <Item>
+      <Source>SkyboxImages\BackgroundCube.dds</Source>
+      <Name>SkyboxImages\BackgroundCube</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\majd\Desktop\Physics Project- the very good one\Physics Project\Physics_Project\bin\x86\Debug\Content\SkyboxImages\BackgroundCube.xnb</Output>
+      <Time>2015-02-13T15:25:09.6704308+02:00</Time>
+    </Item>
+    <Item>
+      <Source>SkyboxImages\Chess.jpg</Source>
+      <Name>SkyboxImages\Chess</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\majd\Desktop\Physics Project- the very good one\Physics Project\Physics_Project\bin\x86\Debug\Content\SkyboxImages\Chess.xnb</Output>
+      <Time>2015-02-13T15:25:09.6860515+02:00</Time>
+    </Item>
+    <Item>
+      <Source>SkyboxImages\Earth_texture_02.jpg</Source>
+      <Name>SkyboxImages\Earth_texture_02</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\majd\Desktop\Physics Project- the very good one\Physics Project\Physics_Project\bin\x86\Debug\Content\SkyboxImages\Earth_texture_02.xnb</Output>
+      <Time>2015-02-13T15:25:09.6860515+02:00</Time>
+    </Item>
+    <Item>
+      <Source>SkyboxImages\grass.jpg</Source>
+      <Name>SkyboxImages\grass</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\majd\Desktop\Physics Project- the very good one\Physics Project\Physics_Project\bin\x86\Debug\Content\SkyboxImages\grass.xnb</Output>
+      <Time>2015-02-13T15:25:09.6860515+02:00</Time>
+    </Item>
+    <Item>
+      <Source>SkyboxImages\heightmap.bmp</Source>
+      <Name>SkyboxImages\heightmap</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\majd\Desktop\Physics Project- the very good one\Physics Project\Physics_Project\bin\x86\Debug\Content\SkyboxImages\heightmap.xnb</Output>
+      <Time>2015-02-13T15:25:09.7016825+02:00</Time>
+    </Item>
+    <Item>
+      <Source>SkyboxImages\moon-surface-texture.jpg</Source>
+      <Name>SkyboxImages\moon-surface-texture</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\majd\Desktop\Physics Project- the very good one\Physics Project\Physics_Project\bin\x86\Debug\Content\SkyboxImages\moon-surface-texture.xnb</Output>
+      <Time>2015-02-13T15:25:09.7016825+02:00</Time>
+    </Item>
+    <Item>
+      <Source>SkyboxImages\short_grass_9091044.JPG</Source>
+      <Name>SkyboxImages\short_grass_9091044</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\majd\Desktop\Physics Project- the very good one\Physics Project\Physics_Project\bin\x86\Debug\Content\SkyboxImages\short_grass_9091044.xnb</Output>
+      <Time>2015-02-13T15:25:09.7016825+02:00</Time>
+    </Item>
+    <Item>
+      <Source>SkyboxImages\SkyBox.dds</Source>
+      <Name>SkyboxImages\SkyBox</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\majd\Desktop\Physics Project- the very good one\Physics Project\Physics_Project\bin\x86\Debug\Content\SkyboxImages\SkyBox.xnb</Output>
+      <Time>2015-02-13T15:25:09.7016825+02:00</Time>
+    </Item>
+    <Item>
+      <Source>SkyboxImages\Skybox1.dds</Source>
+      <Name>SkyboxImages\Skybox1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\majd\Desktop\Physics Project- the very good one\Physics Project\Physics_Project\bin\x86\Debug\Content\SkyboxImages\Skybox1.xnb</Output>
+      <Time>2015-02-13T15:25:09.717305+02:00</Time>
+    </Item>
+    <Item>
+      <Source>SkyboxImages\wildtextures-deep-grass.jpg</Source>
+      <Name>SkyboxImages\wildtextures-deep-grass</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\majd\Desktop\Physics Project- the very good one\Physics Project\Physics_Project\bin\x86\Debug\Content\SkyboxImages\wildtextures-deep-grass.xnb</Output>
+      <Time>2015-02-13T15:25:09.717305+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Road3.jpg</Source>
+      <Name>Road3</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\majd\Desktop\Physics Project- the very good one\Physics Project\Physics_Project\bin\x86\Debug\Content\Road3.xnb</Output>
+      <Time>2015-02-17T16:42:40.8268335+02:00</Time>
+    </Item>
+    <Item>
+      <Source>short_grass_9091044.JPG</Source>
+      <Name>short_grass_9091044</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\majd\Desktop\Physics Project- the very good one\Physics Project\Physics_Project\bin\x86\Debug\Content\short_grass_9091044.xnb</Output>
+      <Time>2015-02-27T14:20:41.2573691+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Terrain3.bmp</Source>
+      <Name>Terrain3</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\majd\Desktop\Physics Project- the very good one\Physics Project\Physics_Project\bin\x86\Debug\Content\Terrain3.xnb</Output>
+      <Time>2015-02-28T20:52:54.4841976+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Blanks\DropTank.jpg</Source>
+      <Name>Blanks\DropTank</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\majd\Desktop\Physics Project- the very good one\Physics Project\Physics_Project\bin\x86\Debug\Content\Blanks\DropTank.xnb</Output>
+      <Time>2015-02-10T23:26:18+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Blanks\sphere6_CanopyFrame.jpg</Source>
+      <Name>Blanks\sphere6_CanopyFrame</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\majd\Desktop\Physics Project- the very good one\Physics Project\Physics_Project\bin\x86\Debug\Content\Blanks\sphere6_CanopyFrame.xnb</Output>
+      <Time>2015-02-10T23:26:18+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Blanks\torus4_51Fg16FsFusil.jpg</Source>
+      <Name>Blanks\torus4_51Fg16FsFusil</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\majd\Desktop\Physics Project- the very good one\Physics Project\Physics_Project\bin\x86\Debug\Content\Blanks\torus4_51Fg16FsFusil.xnb</Output>
+      <Time>2015-02-10T23:26:18+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Blanks\torus4_51Fg25FsFusil.jpg</Source>
+      <Name>Blanks\torus4_51Fg25FsFusil</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\majd\Desktop\Physics Project- the very good one\Physics Project\Physics_Project\bin\x86\Debug\Content\Blanks\torus4_51Fg25FsFusil.xnb</Output>
+      <Time>2015-02-10T23:26:18+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Blanks\torus4_51Fg39FsFusil.jpg</Source>
+      <Name>Blanks\torus4_51Fg39FsFusil</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\majd\Desktop\Physics Project- the very good one\Physics Project\Physics_Project\bin\x86\Debug\Content\Blanks\torus4_51Fg39FsFusil.xnb</Output>
+      <Time>2015-02-10T23:26:18+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Blanks\torus4_Blank Fusil.jpg</Source>
+      <Name>Blanks\torus4_Blank Fusil</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\majd\Desktop\Physics Project- the very good one\Physics Project\Physics_Project\bin\x86\Debug\Content\Blanks\torus4_Blank Fusil.xnb</Output>
+      <Time>2015-02-10T23:26:18+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Blanks\torus4_Blank StripeFusil..jpg</Source>
+      <Name>Blanks\torus4_Blank StripeFusil.</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\majd\Desktop\Physics Project- the very good one\Physics Project\Physics_Project\bin\x86\Debug\Content\Blanks\torus4_Blank StripeFusil..xnb</Output>
+      <Time>2015-02-10T23:26:18+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Blanks\Wings_auv.jpg</Source>
+      <Name>Blanks\Wings_auv</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\majd\Desktop\Physics Project- the very good one\Physics Project\Physics_Project\bin\x86\Debug\Content\Blanks\Wings_auv.xnb</Output>
+      <Time>2015-02-10T23:26:18+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Bomb Loader\cube3_au green.jpg</Source>
+      <Name>Bomb Loader\cube3_au green</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\majd\Desktop\Physics Project- the very good one\Physics Project\Physics_Project\bin\x86\Debug\Content\Bomb Loader\cube3_au green.xnb</Output>
+      <Time>2015-02-10T23:26:18+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Bomb Loader\cube3_au yello.jpg</Source>
+      <Name>Bomb Loader\cube3_au yello</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\majd\Desktop\Physics Project- the very good one\Physics Project\Physics_Project\bin\x86\Debug\Content\Bomb Loader\cube3_au yello.xnb</Output>
+      <Time>2015-02-10T23:26:18+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Bomb Loader\instrumentPanel.jpg</Source>
+      <Name>Bomb Loader\instrumentPanel</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\majd\Desktop\Physics Project- the very good one\Physics Project\Physics_Project\bin\x86\Debug\Content\Bomb Loader\instrumentPanel.xnb</Output>
+      <Time>2015-02-10T23:26:18+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Fusilages\torus4_51Fg16FsFusil_Heller.jpg</Source>
+      <Name>Fusilages\torus4_51Fg16FsFusil_Heller</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\majd\Desktop\Physics Project- the very good one\Physics Project\Physics_Project\bin\x86\Debug\Content\Fusilages\torus4_51Fg16FsFusil_Heller.xnb</Output>
+      <Time>2015-02-10T23:26:18+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Fusilages\torus4_51Fg25FsFusil_MMM.jpg</Source>
+      <Name>Fusilages\torus4_51Fg25FsFusil_MMM</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\majd\Desktop\Physics Project- the very good one\Physics Project\Physics_Project\bin\x86\Debug\Content\Fusilages\torus4_51Fg25FsFusil_MMM.xnb</Output>
+      <Time>2015-02-10T23:26:18+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Fusilages\torus4_StripeFusilTempt.jpg</Source>
+      <Name>Fusilages\torus4_StripeFusilTempt</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\majd\Desktop\Physics Project- the very good one\Physics Project\Physics_Project\bin\x86\Debug\Content\Fusilages\torus4_StripeFusilTempt.xnb</Output>
+      <Time>2015-02-10T23:26:18+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Speculars\DropTank_FlashSpec.jpg</Source>
+      <Name>Speculars\DropTank_FlashSpec</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\majd\Desktop\Physics Project- the very good one\Physics Project\Physics_Project\bin\x86\Debug\Content\Speculars\DropTank_FlashSpec.xnb</Output>
+      <Time>2015-02-10T23:26:18+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Speculars\DropTank_spec.jpg</Source>
+      <Name>Speculars\DropTank_spec</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\majd\Desktop\Physics Project- the very good one\Physics Project\Physics_Project\bin\x86\Debug\Content\Speculars\DropTank_spec.xnb</Output>
+      <Time>2015-02-10T23:26:18+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Speculars\DropTank_StripeSpec.jpg</Source>
+      <Name>Speculars\DropTank_StripeSpec</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\majd\Desktop\Physics Project- the very good one\Physics Project\Physics_Project\bin\x86\Debug\Content\Speculars\DropTank_StripeSpec.xnb</Output>
+      <Time>2015-02-10T23:26:18+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Speculars\sphere6_CanopyFrame_spec.jpg</Source>
+      <Name>Speculars\sphere6_CanopyFrame_spec</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\majd\Desktop\Physics Project- the very good one\Physics Project\Physics_Project\bin\x86\Debug\Content\Speculars\sphere6_CanopyFrame_spec.xnb</Output>
+      <Time>2015-02-10T23:26:18+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Speculars\StripeWing_spec.jpg</Source>
+      <Name>Speculars\StripeWing_spec</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\majd\Desktop\Physics Project- the very good one\Physics Project\Physics_Project\bin\x86\Debug\Content\Speculars\StripeWing_spec.xnb</Output>
+      <Time>2015-02-10T23:26:18+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Speculars\The Huff_spec.jpg</Source>
+      <Name>Speculars\The Huff_spec</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\majd\Desktop\Physics Project- the very good one\Physics Project\Physics_Project\bin\x86\Debug\Content\Speculars\The Huff_spec.xnb</Output>
+      <Time>2015-02-10T23:26:18+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Map__8_Raytrace.tga</Source>
+      <Name>Map__8_Raytrace</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\majd\Desktop\Physics Project- the very good one\Physics Project\Physics_Project\bin\x86\Debug\Content\Map__8_Raytrace.xnb</Output>
+      <Time>2015-02-11T12:35:42+02:00</Time>
+    </Item>
+    <Item>
+      <Source>maps\Map__8_Raytrace.tga</Source>
+      <Name>maps\Map__8_Raytrace</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\majd\Desktop\Physics Project- the very good one\Physics Project\Physics_Project\bin\x86\Debug\Content\maps\Map__8_Raytrace.xnb</Output>
+      <Time>2015-02-11T12:37:06+02:00</Time>
+    </Item>
+    <Item>
+      <Source>SkyboxShaders\PositionColor.fx</Source>
+      <Name>SkyboxShaders\PositionColor</Name>
+      <Importer>EffectImporter</Importer>
+      <Processor>EffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\majd\Desktop\Physics Project- the very good one\Physics Project\Physics_Project\bin\x86\Debug\Content\SkyboxShaders\PositionColor.xnb</Output>
+      <Time>2015-02-01T23:18:04+02:00</Time>
+    </Item>
+    <Item>
+      <Source>SkyboxShaders\Skybox.fx</Source>
+      <Name>SkyboxShaders\Skybox</Name>
+      <Importer>EffectImporter</Importer>
+      <Processor>EffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\majd\Desktop\Physics Project- the very good one\Physics Project\Physics_Project\bin\x86\Debug\Content\SkyboxShaders\Skybox.xnb</Output>
+      <Time>2015-02-01T23:18:04+02:00</Time>
+    </Item>
+    <Item>
+      <Source>SkyboxShaders\Texture.fx</Source>
+      <Name>SkyboxShaders\Texture</Name>
+      <Importer>EffectImporter</Importer>
+      <Processor>EffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\majd\Desktop\Physics Project- the very good one\Physics Project\Physics_Project\bin\x86\Debug\Content\SkyboxShaders\Texture.xnb</Output>
+      <Time>2015-02-01T23:18:04+02:00</Time>
+    </Item>
+    <Item>
+      <Source>effect.fx</Source>
+      <Name>effect</Name>
+      <Importer>EffectImporter</Importer>
+      <Processor>EffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\majd\Desktop\Physics Project- the very good one\Physics Project\Physics_Project\bin\x86\Debug\Content\effect.xnb</Output>
+      <Time>2015-02-17T16:42:40.6237006+02:00</Time>
+    </Item>
+    <Item>
+      <Source>PositionColor.fx</Source>
+      <Name>PositionColor</Name>
+      <Importer>EffectImporter</Importer>
+      <Processor>EffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\majd\Desktop\Physics Project- the very good one\Physics Project\Physics_Project\bin\x86\Debug\Content\PositionColor.xnb</Output>
+      <Time>2015-02-17T16:42:40.6237006+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Skybox.fx</Source>
+      <Name>Skybox</Name>
+      <Importer>EffectImporter</Importer>
+      <Processor>EffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\majd\Desktop\Physics Project- the very good one\Physics Project\Physics_Project\bin\x86\Debug\Content\Skybox.xnb</Output>
+      <Time>2015-02-17T16:42:40.9362175+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Texture.fx</Source>
+      <Name>Texture</Name>
+      <Importer>EffectImporter</Importer>
+      <Processor>EffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\majd\Desktop\Physics Project- the very good one\Physics Project\Physics_Project\bin\x86\Debug\Content\Texture.xnb</Output>
+      <Time>2015-02-17T16:42:40.9518412+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Ship.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>C:\Users\majd\Desktop\Physics Project- the very good one\Physics Project\Physics_Project\obj\x86\Debug\Ship_0.xml</Output>
+      <Time>2015-02-11T13:47:50+02:00</Time>
+    </Item>
+    <Item>
+      <Source>ShipTexture.png</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\majd\Desktop\Physics Project- the very good one\Physics Project\Physics_Project\bin\x86\Debug\Content\ShipTexture_0.xnb</Output>
+      <Time>2015-02-01T23:14:50+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Fan-Engine.FBX</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>C:\Users\majd\Desktop\Physics Project- the very good one\Physics Project\Physics_Project\obj\x86\Debug\Fan-Engine_0.xml</Output>
+      <Time>2015-02-04T14:03:04+02:00</Time>
+    </Item>
+    <Item>
+      <Source>parts.tga</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\majd\Desktop\Physics Project- the very good one\Physics Project\Physics_Project\bin\x86\Debug\Content\parts_0.xnb</Output>
+      <Time>2015-02-11T19:54:14.1517862+02:00</Time>
+    </Item>
+    <Item>
+      <Source>engines.tga</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\majd\Desktop\Physics Project- the very good one\Physics Project\Physics_Project\bin\x86\Debug\Content\engines_0.xnb</Output>
+      <Time>2015-02-11T19:54:15.9457894+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Jet-Engine.FBX</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>C:\Users\majd\Desktop\Physics Project- the very good one\Physics Project\Physics_Project\obj\x86\Debug\Jet-Engine_0.xml</Output>
+      <Time>2015-02-24T12:22:14.9739081+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Rocket-Engine.FBX</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>C:\Users\majd\Desktop\Physics Project- the very good one\Physics Project\Physics_Project\obj\x86\Debug\Rocket-Engine_0.xml</Output>
+      <Time>2015-02-24T12:22:14.1539069+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Cessna-Body.FBX</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>C:\Users\majd\Desktop\Physics Project- the very good one\Physics Project\Physics_Project\obj\x86\Debug\Cessna-Body_0.xml</Output>
+      <Time>2015-02-23T12:36:17.5717286+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Spitfire-Body.FBX</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>C:\Users\majd\Desktop\Physics Project- the very good one\Physics Project\Physics_Project\obj\x86\Debug\Spitfire-Body_0.xml</Output>
+      <Time>2015-02-23T12:40:26.5802255+02:00</Time>
+    </Item>
+    <Item>
+      <Source>X15-Body.FBX</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>C:\Users\majd\Desktop\Physics Project- the very good one\Physics Project\Physics_Project\obj\x86\Debug\X15-Body_0.xml</Output>
+      <Time>2015-02-24T11:33:40.9766474+02:00</Time>
+    </Item>
+    <Item>
+      <Source>X-99-Body.FBX</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>C:\Users\majd\Desktop\Physics Project- the very good one\Physics Project\Physics_Project\obj\x86\Debug\X-99-Body_0.xml</Output>
+      <Time>2015-02-11T09:28:40+02:00</Time>
+    </Item>
+    <Item>
+      <Source>A10-Left-Wing all.FBX</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>C:\Users\majd\Desktop\Physics Project- the very good one\Physics Project\Physics_Project\obj\x86\Debug\A10-Left-Wing all_0.xml</Output>
+      <Time>2015-02-11T19:54:14.8849875+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Right Wing.tga</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\majd\Desktop\Physics Project- the very good one\Physics Project\Physics_Project\bin\x86\Debug\Content\Right Wing_0.xnb</Output>
+      <Time>2015-02-11T19:54:14.1517862+02:00</Time>
+    </Item>
+    <Item>
+      <Source>A10-Right-Wing all.FBX</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>C:\Users\majd\Desktop\Physics Project- the very good one\Physics Project\Physics_Project\obj\x86\Debug\A10-Right-Wing all_0.xml</Output>
+      <Time>2015-02-11T19:54:14.9941877+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Bleriot-Left-Wing.FBX</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>C:\Users\majd\Desktop\Physics Project- the very good one\Physics Project\Physics_Project\obj\x86\Debug\Bleriot-Left-Wing_0.xml</Output>
+      <Time>2015-02-23T12:05:47.6080243+02:00</Time>
+    </Item>
+    <Item>
+      <Source>C:\Users\Chistian\Documents\Travaux3D\BLERIOT\FabricPlain0052_1_Lbis.jpg</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\majd\Desktop\Physics Project- the very good one\Physics Project\Physics_Project\bin\x86\Debug\Content\FabricPlain0052_1_Lbis_0.xnb</Output>
+      <Time>2015-02-11T12:36:08+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Bleriot-Right-Wing.FBX</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>C:\Users\majd\Desktop\Physics Project- the very good one\Physics Project\Physics_Project\obj\x86\Debug\Bleriot-Right-Wing_0.xml</Output>
+      <Time>2015-02-23T12:05:48.7480259+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Cessna-Left-Wing.FBX</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>C:\Users\majd\Desktop\Physics Project- the very good one\Physics Project\Physics_Project\obj\x86\Debug\Cessna-Left-Wing_0.xml</Output>
+      <Time>2015-02-23T12:36:18.2717296+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Cessna-Right-Wing.FBX</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>C:\Users\majd\Desktop\Physics Project- the very good one\Physics Project\Physics_Project\obj\x86\Debug\Cessna-Right-Wing_0.xml</Output>
+      <Time>2015-02-23T12:36:19.0417307+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Spitfire-Left-Wing.FBX</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>C:\Users\majd\Desktop\Physics Project- the very good one\Physics Project\Physics_Project\obj\x86\Debug\Spitfire-Left-Wing_0.xml</Output>
+      <Time>2015-02-23T12:40:27.2202264+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Spitfire-Right-Wing.FBX</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>C:\Users\majd\Desktop\Physics Project- the very good one\Physics Project\Physics_Project\obj\x86\Debug\Spitfire-Right-Wing_0.xml</Output>
+      <Time>2015-02-23T12:40:27.8802273+02:00</Time>
+    </Item>
+    <Item>
+      <Source>X15-Left-Wing.FBX</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>C:\Users\majd\Desktop\Physics Project- the very good one\Physics Project\Physics_Project\obj\x86\Debug\X15-Left-Wing_0.xml</Output>
+      <Time>2015-02-24T11:33:41.6466483+02:00</Time>
+    </Item>
+    <Item>
+      <Source>X15-Right-Wing.FBX</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>C:\Users\majd\Desktop\Physics Project- the very good one\Physics Project\Physics_Project\obj\x86\Debug\X15-Right-Wing_0.xml</Output>
+      <Time>2015-02-24T11:33:38.7566442+02:00</Time>
+    </Item>
+    <Item>
+      <Source>A10-Left-wing inner flip.FBX</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>C:\Users\majd\Desktop\Physics Project- the very good one\Physics Project\Physics_Project\obj\x86\Debug\A10-Left-wing inner flip_0.xml</Output>
+      <Time>2015-02-11T19:54:14.9317876+02:00</Time>
+    </Item>
+    <Item>
+      <Source>A10-Left-wing outer flip.FBX</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>C:\Users\majd\Desktop\Physics Project- the very good one\Physics Project\Physics_Project\obj\x86\Debug\A10-Left-wing outer flip_0.xml</Output>
+      <Time>2015-02-11T19:54:14.9473876+02:00</Time>
+    </Item>
+    <Item>
+      <Source>A10-Right-wing inner flip.FBX</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>C:\Users\majd\Desktop\Physics Project- the very good one\Physics Project\Physics_Project\obj\x86\Debug\A10-Right-wing inner flip_0.xml</Output>
+      <Time>2015-02-11T19:54:15.0097877+02:00</Time>
+    </Item>
+    <Item>
+      <Source>A10-Right-wing outer flip.FBX</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>C:\Users\majd\Desktop\Physics Project- the very good one\Physics Project\Physics_Project\obj\x86\Debug\A10-Right-wing outer flip_0.xml</Output>
+      <Time>2015-02-11T19:54:15.0409878+02:00</Time>
+    </Item>
+    <Item>
+      <Source>A10-wheel.FBX</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>C:\Users\majd\Desktop\Physics Project- the very good one\Physics Project\Physics_Project\obj\x86\Debug\A10-wheel_0.xml</Output>
+      <Time>2015-02-11T19:54:15.150188+02:00</Time>
+    </Item>
+    <Item>
+      <Source>A10.FBX</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>C:\Users\majd\Desktop\Physics Project- the very good one\Physics Project\Physics_Project\obj\x86\Debug\A10_0.xml</Output>
+      <Time>2015-02-11T19:54:14.2453864+02:00</Time>
+    </Item>
+    <Item>
+      <Source>cockpit 3.tga</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\majd\Desktop\Physics Project- the very good one\Physics Project\Physics_Project\bin\x86\Debug\Content\cockpit 3_0.xnb</Output>
+      <Time>2015-02-11T19:54:15.6181888+02:00</Time>
+    </Item>
+    <Item>
+      <Source>cockpit 2.tga</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\majd\Desktop\Physics Project- the very good one\Physics Project\Physics_Project\bin\x86\Debug\Content\cockpit 2_0.xnb</Output>
+      <Time>2015-02-11T19:54:15.4621885+02:00</Time>
+    </Item>
+    <Item>
+      <Source>cockpit 4.tga</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\majd\Desktop\Physics Project- the very good one\Physics Project\Physics_Project\bin\x86\Debug\Content\cockpit 4_0.xnb</Output>
+      <Time>2015-02-11T19:54:15.6961889+02:00</Time>
+    </Item>
+    <Item>
+      <Source>seat.tga</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\majd\Desktop\Physics Project- the very good one\Physics Project\Physics_Project\bin\x86\Debug\Content\seat_0.xnb</Output>
+      <Time>2015-02-11T19:54:14.1829863+02:00</Time>
+    </Item>
+    <Item>
+      <Source>body rear.tga</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\majd\Desktop\Physics Project- the very good one\Physics Project\Physics_Project\bin\x86\Debug\Content\body rear_0.xnb</Output>
+      <Time>2015-02-11T19:54:15.3373883+02:00</Time>
+    </Item>
+    <Item>
+      <Source>body front.tga</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\majd\Desktop\Physics Project- the very good one\Physics Project\Physics_Project\bin\x86\Debug\Content\body front_0.xnb</Output>
+      <Time>2015-02-11T19:54:15.2125881+02:00</Time>
+    </Item>
+    <Item>
+      <Source>cockpit.tga</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\majd\Desktop\Physics Project- the very good one\Physics Project\Physics_Project\bin\x86\Debug\Content\cockpit_0.xnb</Output>
+      <Time>2015-02-11T19:54:15.758589+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Decal.tga</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\majd\Desktop\Physics Project- the very good one\Physics Project\Physics_Project\bin\x86\Debug\Content\Decal_0.xnb</Output>
+      <Time>2015-02-11T19:54:15.8677892+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Left wing.tga</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\majd\Desktop\Physics Project- the very good one\Physics Project\Physics_Project\bin\x86\Debug\Content\Left wing_0.xnb</Output>
+      <Time>2015-02-11T19:54:14.1049861+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Goggles.tga</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\majd\Desktop\Physics Project- the very good one\Physics Project\Physics_Project\bin\x86\Debug\Content\Goggles_0.xnb</Output>
+      <Time>2015-02-11T19:54:14.0893861+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Glass.tga</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\majd\Desktop\Physics Project- the very good one\Physics Project\Physics_Project\bin\x86\Debug\Content\Glass_0.xnb</Output>
+      <Time>2015-02-11T19:54:14.0737861+02:00</Time>
+    </Item>
+    <Item>
+      <Source>A10-Body.FBX</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>C:\Users\majd\Desktop\Physics Project- the very good one\Physics Project\Physics_Project\obj\x86\Debug\A10-Body_0.xml</Output>
+      <Time>2015-02-23T08:51:57.7598701+02:00</Time>
+    </Item>
+    <Item>
+      <Source>D:\My Work\Majed\A10\body rear.tga</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\majd\Desktop\Physics Project- the very good one\Physics Project\Physics_Project\bin\x86\Debug\Content\body rear_1.xnb</Output>
+      <Time>2013-01-10T18:51:39.921875+02:00</Time>
+    </Item>
+    <Item>
+      <Source>D:\My Work\Majed\A10\body front.tga</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\majd\Desktop\Physics Project- the very good one\Physics Project\Physics_Project\bin\x86\Debug\Content\body front_1.xnb</Output>
+      <Time>2013-01-10T18:51:36.59375+02:00</Time>
+    </Item>
+    <Item>
+      <Source>D:\My Work\Majed\A10\Glass.tga</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\majd\Desktop\Physics Project- the very good one\Physics Project\Physics_Project\bin\x86\Debug\Content\Glass_1.xnb</Output>
+      <Time>2013-01-10T18:51:38.265625+02:00</Time>
+    </Item>
+    <Item>
+      <Source>D:\My Work\Majed\A10\Decal.tga</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\majd\Desktop\Physics Project- the very good one\Physics Project\Physics_Project\bin\x86\Debug\Content\Decal_1.xnb</Output>
+      <Time>2013-01-10T22:54:53.53125+02:00</Time>
+    </Item>
+    <Item>
+      <Source>D:\My Work\Majed\A10\cockpit 3.tga</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\majd\Desktop\Physics Project- the very good one\Physics Project\Physics_Project\bin\x86\Debug\Content\cockpit 3_1.xnb</Output>
+      <Time>2013-01-10T18:51:35.5+02:00</Time>
+    </Item>
+    <Item>
+      <Source>A10-Left-Wing.FBX</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>C:\Users\majd\Desktop\Physics Project- the very good one\Physics Project\Physics_Project\obj\x86\Debug\A10-Left-Wing_0.xml</Output>
+      <Time>2015-02-23T08:51:57.9314704+02:00</Time>
+    </Item>
+    <Item>
+      <Source>D:\My Work\Majed\A10\Left wing.tga</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\majd\Desktop\Physics Project- the very good one\Physics Project\Physics_Project\bin\x86\Debug\Content\Left wing_1.xnb</Output>
+      <Time>2013-01-10T18:51:41+02:00</Time>
+    </Item>
+    <Item>
+      <Source>A10-Right-Wing.FBX</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>C:\Users\majd\Desktop\Physics Project- the very good one\Physics Project\Physics_Project\obj\x86\Debug\A10-Right-Wing_0.xml</Output>
+      <Time>2015-02-23T08:51:58.0406706+02:00</Time>
+    </Item>
+    <Item>
+      <Source>D:\My Work\Majed\A10\Right Wing.tga</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\majd\Desktop\Physics Project- the very good one\Physics Project\Physics_Project\bin\x86\Debug\Content\Right Wing_1.xnb</Output>
+      <Time>2013-01-10T18:51:42.046875+02:00</Time>
+    </Item>
+    <Item>
+      <Source>A10-tail.FBX</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>C:\Users\majd\Desktop\Physics Project- the very good one\Physics Project\Physics_Project\obj\x86\Debug\A10-tail_0.xml</Output>
+      <Time>2015-02-23T08:51:58.1342707+02:00</Time>
+    </Item>
+    <Item>
+      <Source>D:\My Work\Majed\A10\engines.tga</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\majd\Desktop\Physics Project- the very good one\Physics Project\Physics_Project\bin\x86\Debug\Content\engines_1.xnb</Output>
+      <Time>2013-01-10T18:51:34.421875+02:00</Time>
+    </Item>
+    <Item>
+      <Source>D:\My Work\Majed\A10\parts.tga</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\majd\Desktop\Physics Project- the very good one\Physics Project\Physics_Project\bin\x86\Debug\Content\parts_1.xnb</Output>
+      <Time>2013-01-10T18:51:31.078125+02:00</Time>
+    </Item>
+    <Item>
+      <Source>SkyboxImages\cube.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>C:\Users\majd\Desktop\Physics Project- the very good one\Physics Project\Physics_Project\obj\x86\Debug\SkyboxImages\cube_0.xml</Output>
+      <Time>2015-02-13T15:25:09.6860515+02:00</Time>
+    </Item>
+    <Item>
+      <Source>A10-engine.FBX</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>C:\Users\majd\Desktop\Physics Project- the very good one\Physics Project\Physics_Project\obj\x86\Debug\A10-engine_0.xml</Output>
+      <Time>2015-02-24T11:38:58.4719218+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Bleriot-Tail.FBX</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>C:\Users\majd\Desktop\Physics Project- the very good one\Physics Project\Physics_Project\obj\x86\Debug\Bleriot-Tail_0.xml</Output>
+      <Time>2015-02-23T12:05:49.4780269+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Cessna-Tail.FBX</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>C:\Users\majd\Desktop\Physics Project- the very good one\Physics Project\Physics_Project\obj\x86\Debug\Cessna-Tail_0.xml</Output>
+      <Time>2015-02-23T12:36:19.7817317+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Spitfire-Tail.FBX</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>C:\Users\majd\Desktop\Physics Project- the very good one\Physics Project\Physics_Project\obj\x86\Debug\Spitfire-Tail_0.xml</Output>
+      <Time>2015-02-23T12:40:29.001229+02:00</Time>
+    </Item>
+    <Item>
+      <Source>X15-Tail.FBX</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>C:\Users\majd\Desktop\Physics Project- the very good one\Physics Project\Physics_Project\obj\x86\Debug\X15-Tail_0.xml</Output>
+      <Time>2015-02-24T11:33:39.6366455+02:00</Time>
+    </Item>
+    <Item>
+      <Source>layer0.png</Source>
+      <Name>layer0</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\majd\Desktop\Physics Project- the very good one\Physics Project\Physics_Project\bin\x86\Debug\Content\layer0.xnb</Output>
+      <Time>2015-02-27T14:12:52.9538211+02:00</Time>
+    </Item>
+    <Item>
+      <Source>layer1.png</Source>
+      <Name>layer1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\majd\Desktop\Physics Project- the very good one\Physics Project\Physics_Project\bin\x86\Debug\Content\layer1.xnb</Output>
+      <Time>2015-02-27T14:12:52.9694466+02:00</Time>
+    </Item>
+    <Item>
+      <Source>images.jpg</Source>
+      <Name>images</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\majd\Desktop\Physics Project- the very good one\Physics Project\Physics_Project\bin\x86\Debug\Content\images.xnb</Output>
+      <Time>2015-02-27T14:20:40.4604545+02:00</Time>
+    </Item>
+    <Item>
+      <Source>seamless_desert_sand_texture_by_hhh316-d311qn7.jpg</Source>
+      <Name>seamless_desert_sand_texture_by_hhh316-d311qn7</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\majd\Desktop\Physics Project- the very good one\Physics Project\Physics_Project\bin\x86\Debug\Content\seamless_desert_sand_texture_by_hhh316-d311qn7.xnb</Output>
+      <Time>2015-02-27T14:20:40.4760806+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Warning .jpg</Source>
+      <Name>Warning</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\majd\Desktop\Physics Project- the very good one\Physics Project\Physics_Project\bin\x86\Debug\Content\Warning.xnb</Output>
+      <Time>2015-02-28T15:04:57.6941659+02:00</Time>
+    </Item>
+    <Item>
+      <Source>waves-of-sand.jpg</Source>
+      <Name>waves-of-sand</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\majd\Desktop\Physics Project- the very good one\Physics Project\Physics_Project\bin\x86\Debug\Content\waves-of-sand.xnb</Output>
+      <Time>2015-02-27T14:20:41.2729952+02:00</Time>
+    </Item>
+    <Item>
+      <Source>SkyboxImages\Texture3.dds</Source>
+      <Name>SkyboxImages\Texture3</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\majd\Desktop\Physics Project- the very good one\Physics Project\Physics_Project\bin\x86\Debug\Content\SkyboxImages\Texture3.xnb</Output>
+      <Time>2015-02-27T14:21:02.4986899+02:00</Time>
+    </Item>
+    <Item>
+      <Source>white_fabric_texture.jpg</Source>
+      <Name>white_fabric_texture</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\majd\Desktop\Physics Project- the very good one\Physics Project\Physics_Project\bin\x86\Debug\Content\white_fabric_texture.xnb</Output>
+      <Time>2015-02-28T15:04:57.709792+02:00</Time>
+    </Item>
+    <Item>
+      <Source>SpriteFont1.spritefont</Source>
+      <Name>SpriteFont1</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\majd\Desktop\Physics Project- the very good one\Physics Project\Physics_Project\bin\x86\Debug\Content\SpriteFont1.xnb</Output>
+      <Time>2015-03-01T06:02:25.1981539+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Broken-Glass-psd41136.png</Source>
+      <Name>Broken-Glass-psd41136</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\majd\Desktop\Physics Project- the very good one\Physics Project\Physics_Project\bin\x86\Debug\Content\Broken-Glass-psd41136.xnb</Output>
+      <Time>2015-02-28T17:03:28.7701349+02:00</Time>
+    </Item>
+    <BuildSuccessful>true</BuildSuccessful>
+    <Settings>
+      <ContentProjectGUID>{E3A30013-92C0-41A9-965F-DF9884D47367}</ContentProjectGUID>
+      <TargetPlatform>Windows</TargetPlatform>
+      <TargetProfile>HiDef</TargetProfile>
+      <BuildConfiguration>Debug</BuildConfiguration>
+      <CompressContent>false</CompressContent>
+      <RootDirectory>C:\Users\majd\Desktop\Physics Project- the very good one\Physics Project\Physics_ProjectContent\</RootDirectory>
+      <LoggerRootDirectory>C:\Users\majd\Desktop\Physics Project- the very good one\Physics Project\Physics_Project\</LoggerRootDirectory>
+      <IntermediateDirectory>C:\Users\majd\Desktop\Physics Project- the very good one\Physics Project\Physics_Project\obj\x86\Debug\</IntermediateDirectory>
+      <OutputDirectory>C:\Users\majd\Desktop\Physics Project- the very good one\Physics Project\Physics_Project\bin\x86\Debug\Content\</OutputDirectory>
+    </Settings>
+    <Assemblies>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.XImporter.dll</Key>
+        <Value>2011-09-01T17:22:30+03:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.VideoImporters.dll</Key>
+        <Value>2011-09-01T17:22:30+03:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.TextureImporter.dll</Key>
+        <Value>2011-09-01T17:22:30+03:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.FBXImporter.dll</Key>
+        <Value>2011-09-01T17:22:30+03:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.EffectImporter.dll</Key>
+        <Value>2011-09-01T17:22:30+03:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.AudioImporters.dll</Key>
+        <Value>2011-09-01T17:22:30+03:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Windows\Microsoft.Net\assembly\GAC_32\Microsoft.Xna.Framework.Content.Pipeline\v4.0_4.0.0.0__842cf8be1de50553\Microsoft.Xna.Framework.Content.Pipeline.dll</Key>
+        <Value>2014-12-19T15:14:25.5935205+02:00</Value>
+      </Assembly>
+    </Assemblies>
+  </Asset>
+</XnaContent>
