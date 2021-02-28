@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Physics_Project.PLANE">
+    <Position X="17" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAACAAEgAAACgAALAIIAAARAAAQQgBAQIAAAWCgA=</HashCode>
+      <FileName>Plane.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Physics_Project.Physics.AeroForce">
+    <Position X="1.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAQAAAAAAAIAAAgAAAAAAACACAAAAAAAA=</HashCode>
+      <FileName>Force\AeroForce.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Physics_Project.Physics.Drag">
+    <Position X="2.5" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABBAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Force\Drag.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Physics_Project.Physics.Force">
+    <Position X="3.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAJAAAAAAAAAAIAAAAAAACAAAAAAAAAAACAA=</HashCode>
+      <FileName>Force\Force.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Physics_Project.Physics.Gravity">
+    <Position X="5.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAABAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Force\Gravity.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Physics_Project.Physics.Lift">
+    <Position X="0.5" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Force\Lift.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Physics_Project.Physics.Thrust">
+    <Position X="3.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Force\Thrust.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Physics_Project.Parts.Body">
+    <Position X="12.5" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Parts\Body.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Physics_Project.Parts.Engine">
+    <Position X="14.75" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Parts\Engine.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Physics_Project.Parts.Part">
+    <Position X="11.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAiAAAAAABgAAAAAAAIAIAACAAAAAEIgAAAAAAJMAAA=</HashCode>
+      <FileName>Parts\Part.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Physics_Project.Parts.Tail">
+    <Position X="7.75" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Parts\Tail.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Physics_Project.Parts.Wing">
+    <Position X="9.75" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAA=</HashCode>
+      <FileName>Parts\Wing.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
